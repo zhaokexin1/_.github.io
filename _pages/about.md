@@ -1,58 +1,46 @@
----
 permalink: /
-title: ""
-excerpt: ""
+title: Kexin Zhao – Power Electronics Researcher
+excerpt: "Exploring cutting-edge power electronics solutions with a focus on transformer design, magnetic components, and high-frequency applications."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
----
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
+{% if site.google_scholar_stats_use_cdn %} 
+  {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %} 
+{% else %} 
+  {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %} 
+{% endif %} 
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+Welcome to my academic homepage! I am Kexin Zhao, currently pursuing my master's degree at Xi'an Jiaotong University, with a focus on the design and optimization of MHz fractional-turn transformers, power converter efficiency, and high-frequency applications. My work also extends into the exploration of wide bandgap (WBG) devices, magnetic core loss analysis, and piezoelectric components.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+My research interests center on:
+- Power electronics and high-power density converters
+- Fractional-turn transformers and their terminations
+- Wide bandgap devices (SiC, GaN) for high-efficiency applications
+- ESR measurements and piezoelectric resonance
+- Magnetic core loss analysis under high-frequency conditions
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+🔥 News
+2024.09: 🎉 Excited to explore new PhD opportunities and collaborations in power electronics. Looking forward to expanding my research in fractional-turn transformers and core loss analysis.
+2024.08: 🎉 Presented my paper "Symmetrical Termination Structure for Matrix Transformer in High Power Density Applications" at APEC 2024.
 
+📝 Publications
+- **Symmetrical Termination Structure for Matrix Transformer in High Power Density Applications**, Kexin Zhao, APEC 2024.
+- **Planar Fractional-Winding Transformer With Flexible Asymmetric Structure**, Co-author, IEEE Transactions on Power Electronics.
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+🎖 Honors and Awards
+2023.10: Received the Outstanding Graduate Research Award at Xi'an Jiaotong University.
+2023.09: Awarded the Best Paper Award at APEC 2023 for "Symmetrical Termination Structure for Matrix Transformer."
 
-# 📝 Publications 
+📖 Education
+2019.09 - 2024.06 (expected), Master of Science, Electrical Engineering, Xi'an Jiaotong University. Thesis: "Fractional-Turn Transformer Design and Optimization for High-Frequency Applications."
+2015.09 - 2019.06, Bachelor of Science, Electrical Engineering, Xi'an Jiaotong University.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+💬 Invited Talks
+2023.10: "Advances in High-Frequency Transformer Design and Termination," invited presentation at APEC 2023.
+2023.06: "Magnetic Component Optimization for MHz Applications," invited talk at IEEE PELS Workshop.
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+💻 Internships
+2023.05 - 2023.12, Intern, Xi'an Aicosiber Electronics Co., Ltd. Worked on the design and optimization of high-frequency power converters and magnetic components.
